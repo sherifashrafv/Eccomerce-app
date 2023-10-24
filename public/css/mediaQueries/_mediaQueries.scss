@@ -1,0 +1,122 @@
+@media (max-width: 767px) {
+  .products {
+    flex-direction: column-reverse !important;
+  }
+  .card-parent-box:first-child {
+    margin-top: 8rem;
+  }
+  .breadcrumb {
+    margin-top: 1rem;
+  }
+  .actions_cart_search {
+    display: none !important;
+  }
+  .container {
+    max-width: 840px !important;
+  }
+  .card {
+    height: fit-content;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .card_product {
+    box-shadow: none;
+  }
+  .rating-wrap {
+    justify-content: center;
+  }
+  .card-product_img {
+    height: 200px;
+    img {
+      object-fit: scale-down;
+      object-position: center;
+    }
+  }
+  .testimonial-desc {
+    padding: 27px 49px !important;
+  }
+  .icon-box p {
+    padding: 0px !important;
+  }
+  .icon-box--style1:before {
+    width: 0 !important;
+  }
+  .tabs-parent {
+    font-size: 14px;
+    flex-wrap: wrap;
+    box-shadow: 0px 2px 0px 0px #d3d3d3d3;
+  }
+  .trending-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    transform: translateY(80%);
+    background: white;
+    width: 100%;
+    text-align: center !important;
+    align-items: center !important;
+    padding: 12px;
+    left: 0;
+  }
+  .hero-slider__content {
+    padding: 45px;
+  }
+  .actions_cart_search {
+    display: none !important;
+  }
+  .swiper_1,
+  .swiper_2,
+  .swiper_3 {
+    background-position: 68%;
+  }
+  .hover_zoom:hover {
+    transform: scale(1) !important;
+  }
+  .hero-slider__content {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+}
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 840px !important;
+  }
+  .actions_cart_search {
+    display: none !important;
+  }
+}
+@media (max-width: 992px) {
+  .links_nav {
+    display: none !important;
+  }
+  .mobile_device_nav {
+    display: flex !important;
+  }
+  .icon-box--style1:before {
+    position: fixed;
+  }
+  .actions_cart_search {
+    display: none !important;
+  }
+}
+/* Medium Screens */
+@media (min-width: 992px) {
+  .actions_cart_search {
+    display: none !important;
+  }
+}
+/* Large Screens */
+@media (min-width: 1200px) {
+  .leads {
+    text-align: right;
+  }
+  .actions_cart_search {
+    display: none !important;
+  }
+}
+/* Custom */
+@media (max-width: 1199px) {
+}

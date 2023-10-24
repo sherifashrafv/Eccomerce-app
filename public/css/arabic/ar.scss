@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+body {
+  font-family: "Cairo", sans-serif;
+}
+ul {
+  list-style: none;
+}
+.cart-content {
+  direction: rtl;
+}
+#swip_slider {
+  direction: ltr !important;
+}
+.first_nav_bar {
+  direction: rtl;
+}
+.trending-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  text-align: right;
+  direction: rtl;
+}
+.heading-wrapper {
+  text-align: right !important;
+}
+.hero-slider__content.overflow-hidden {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.card {
+  direction: rtl;
+}
+.bg--default {
+  direction: rtl;
+}
+.footer-dark {
+  direction: rtl;
+}
+.footer-payment {
+  text-align: left !important;
+}
+.copy_write {
+  text-align: right !important;
+}
+.single-banner__info {
+  text-align: right;
+}
+.links_nav {
+  direction: rtl;
+}
+.icon_wishlist,
+.icon_login {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+}
+.tabs-parent {
+  flex-direction: row-reverse !important;
+}
+form {
+  direction: rtl;
+}
+.text-image-section {
+  direction: rtl;
+}
+.breadcrumb-section {
+  direction: rtl;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  float: none !important;
+  padding: 0;
+}
+.links_nav li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+.faq-content {
+  direction: rtl;
+}
+.panel-title {
+  text-align: right;
+}
+.heading-s1 {
+  text-align: right !important;
+}
+.term-conditions {
+  text-align: right;
+}
